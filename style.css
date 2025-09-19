@@ -1,3 +1,66 @@
 body{   
 background: green;
+font-family: Arial;
+}
+
+h1,
+h2{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+p{
+    text-align: center;
+    background: coral;
+    width: 70%;
+    margin: auto
+    font-size: 22px;
+    padding: 20px
+    border-radius: 8px;
+    color: white;
+
+}
+
+p: haver{
+    background: tomato
+}
+
+h3{
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+ul, ol{
+    width: 80%
+    margin: auto;
+    padding: 20px;
+}
+
+ol{
+    background: #f0f0f0;
+}
+
+a{
+    background: tomato;
+    color: white;
+    padding: 20px;
+    display: block;
+    margin: 40px auto;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 80px;
 }
