@@ -1,6 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+
 body{   
 background: green;
-font-family: Arial;
+font-family: 'Zalando Sans Expanded';
 }
 
 h1,
