@@ -3,7 +3,7 @@
 
 
 body{   
-background: green;
+background: white;
 font-family: 'Zalando Sans Expanded';
 }
 
@@ -29,16 +29,8 @@ p{
     text-align: center;
     background: coral;
     width: 70%;
-    margin: auto
-    font-size: 22px;
-    padding: 20px
-    border-radius: 8px;
-    color: white;
+    margin: 40px auto
 
-}
-
-p: haver{
-    background: tomato
 }
 
 h3{
@@ -49,7 +41,7 @@ h3{
 
 ul, ol{
     width: 80%
-    margin: auto;
+    margin; ;
     padding: 20px;
 }
 
@@ -67,4 +59,50 @@ a{
     text-align: center;
     text-decoration: none;
     border-radius: 80px;
+}
+
+#maps{
+    margin: 40px auto;
+    width: 100%;
+    height: 450px;
+}
+
+#maps iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#formContainer{
+    width: 100%;
+    background: #f0f0f0;
+    padding: 50px 0;
+    margin: 40% auto;
+}
+
+#formContainer form{
+    width: 80%;
+    margin: auto;
+
+}
+
+#formcontainer label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#formcontainer input, #formcontainer textarea{
+    display: block;
+    border: 2px solid #fafafa;
+    border-radius: 8px;
+    height: 10px;
+    padding: 10px;
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#formcontainer textarea{
+    height: 100px;
 }
