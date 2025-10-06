@@ -80,14 +80,14 @@ a{
     height: 100%;
 }
 
-#formContainer{
+#formcontainer{
     width: 100%;
-    background: #f0f0f0;
+    background: white;
     padding: 50px 0;
     margin: 40% auto;
 }
 
-#formContainer form{
+#formcontainer form{
     width: 80%;
     margin: auto;
 
@@ -113,4 +113,16 @@ a{
 
 #formcontainer textarea{
     height: 100px;
+}
+
+a{
+    background: tomato;
+    color: white;
+    padding: 20px;
+    display: block;
+    margin: 40px auto;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 80px;
 }
